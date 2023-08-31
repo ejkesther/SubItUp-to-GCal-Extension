@@ -3,7 +3,7 @@
     "name": "SubItUp",
     "description": "This extension turns (assigned) shift schedule on SubItUp into Google Calendar events.",
     "version": "1.0",
-    "browser_action": {
+    "action": {
         "default_icon": "subitup.png",
         "default_popup": "window.html"
     },
