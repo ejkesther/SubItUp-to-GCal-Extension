@@ -1,10 +1,38 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "SubItUp",
-    "description": "This extension shows a Hello World message!",
+    "description": "This extension turns (assigned) shift schedule on SubItUp into Google Calendar events.",
     "version": "1.0",
     "browser_action": {
-    "default_icon": "subitup.png",
-    "default_popup": "window.html"
-    }
-    }
+        "default_icon": "subitup.png",
+        "default_popup": "window.html"
+    },
+    "permissions": [
+        "activeTab",
+        "pageCapture",
+        "declarativeContent",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.googleapis.com/auth/calendar"
+    ],
+    "web_accessible_resources": [
+        {
+          "resources": [
+            "images/*"
+          ],
+          "matches": [
+            "*://*/*"
+          ]
+        },
+        {
+          "resources": [
+            "style/extension.css",
+            "script/extension.js"
+          ],
+          "matches": [
+            "https://example.com/*"
+          ]
+        }
+      ]
+}
