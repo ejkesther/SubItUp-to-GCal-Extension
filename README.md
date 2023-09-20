@@ -2,8 +2,11 @@
 Desciption: Chrome extension that turns posted shift schedule on SubItUp into Google Calendar events.
 
 Project Structure:
+
 Manifest.json - processes to chrome extension
+
 background.js - calendar event making done here
+
 window.html - chrome extension popup window
 
 Useful Links/Resources Used:
