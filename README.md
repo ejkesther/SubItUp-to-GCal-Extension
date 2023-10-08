@@ -10,9 +10,13 @@ background.js - calendar event making done here
 
 window.html - chrome extension popup window
 
+google cloud APIs&Services:
+https://console.cloud.google.com/apis/credentials?project=subitupgcal&supportedpurview=project
+
 Useful Links/Resources Used:
 https://developer.chrome.com/docs/extensions/reference/scripting/
 
+https://www.youtube.com/watch?v=c2b2yUNWFzI
 https://developer.chrome.com/docs/extensions/reference/pageCapture/
 https://developer.chrome.com/docs/extensions/reference/declarativeContent/
 https://developer.chrome.com/docs/extensions/mv3/manifest/activeTab/
